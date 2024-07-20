@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Distritb.Services.Products.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {

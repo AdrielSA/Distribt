@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Distribt.Services.Emails.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class EmailController : ControllerBase
     {

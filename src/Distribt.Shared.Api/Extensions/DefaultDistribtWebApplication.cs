@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Distribt.Shared.Serialization.Extensions;
 
 namespace Distribt.Shared.Api.Extensions
 {
@@ -13,6 +14,7 @@ namespace Distribt.Shared.Api.Extensions
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddSerializer();
 
             appBuilder?.Invoke(builder);
 

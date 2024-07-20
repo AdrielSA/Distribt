@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Distritb.Services.Subscriptions.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class SubscriptionController : ControllerBase
     {
-        [HttpPost(nameof(Suscribe))]
-        public Task<bool> Suscribe(SubscriptionDto subscription)
+        [HttpPost(nameof(Subscribe))]
+        public Task<bool> Subscribe(SubscriptionDto subscription)
         {
             return Task.FromResult(true);
         }

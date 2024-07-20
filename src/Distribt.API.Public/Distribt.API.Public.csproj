@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Distribt.Shared.Setup\Distribt.Shared.Setup.csproj" />
+    <ProjectReference Include="..\Distritb.Services.Subscriptions.Dtos\Distritb.Services.Subscriptions.Dtos.csproj" />
   </ItemGroup>
 
 </Project>
